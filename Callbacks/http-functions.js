@@ -1,8 +1,9 @@
 const https = require('https');
 
-var getHTML = require('./print_uppercase');
+//var getHTML = require('./print_uppercase');
+var getHTML = require('./print_lowercase');
 
-module.exports = function getHTML (options, callback) {
+module.exports = function getHTML(options, callback) {
 
   var requestOptions = options
 
