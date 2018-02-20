@@ -2,7 +2,11 @@ var getHTML = require('./http-functions');
 
 var requestOptions = {
   host: 'sytantris.github.io',
-  path: '/http-examples/step5.html'
+  path: '/http-examples/step6.reverse.html'
 };
 
-getHTML(requestOptions)
+var output = getHTML(requestOptions, reverseOutput);
+
+function reverseOutput (output) {
+  console.log(output.split("").reverse().join(""));
+ };

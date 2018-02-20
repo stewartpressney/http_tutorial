@@ -1,7 +1,11 @@
 const https = require('https');
 
 //var getHTML = require('./print_uppercase');
-var getHTML = require('./print_lowercase');
+//var getHTML = require('./print_lowercase');
+//var getHTML = require('./print_reverse');
+var getHTML = require('./print_1337');
+
+
 
 module.exports = function getHTML(options, callback) {
 
